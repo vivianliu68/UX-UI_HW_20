@@ -1,0 +1,164 @@
+
+
+header {
+  /* position: sticky; */
+  top: 0px;
+  padding: 24px; 
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: 'Roboto','Source Sans Pro';
+  color: #7AA2AD;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1px; 
+  padding: 24px; 
+  margin: 0px 5%;
+}
+
+nav a:hover {
+  color: #856E71;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+nav:link {
+  color: #7AA2AD;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #7AA2AD;
+  text-decoration: none;
+}
+
+
+#logo {
+  display: flex;
+  align-items: flex-start;
+  width: 60%;
+}
+
+h1 {
+  font-family: 'Playfair Display';
+  font-size: 40px;
+  font-weight: 100;
+  letter-spacing: 1px; 
+  color:white;
+  text-align: left;
+  padding: 50px 50px 10px;
+} 
+
+h2 {
+  font-family: 'Playfair Display';
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px; 
+  color:#5F422B;
+  line-height: 36px;
+} 
+
+h3 {
+  font-family: 'Roboto','Source Sans Pro';
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px; 
+  color: white;
+  margin-left: 20px;
+  align-self: center;
+  /* padding: 1px; */
+} 
+
+h4 {
+  font-family: 'Roboto','Source Sans Pro';
+  font-size: 14px;
+  font-weight: 200;
+  letter-spacing: 1px; 
+  text-align: top;
+  color: white;
+  padding: 10px 50px 50px;
+  line-height: 26px;
+} 
+
+h6 {
+  text-align: center;
+  font-style: italic;
+}
+
+.jumbotron-fluid {
+  position: relative;
+}
+
+.topleft {
+  position: absolute;
+  top: 0px;
+  left: 16px;
+  font-size: 18px;
+}
+
+.container {
+  padding: 20px 0px 20px 0px;
+  align-items: center;
+}
+
+.pb-2, .py-2 {
+  padding-bottom: .5rem!important;
+  align-items: baseline;
+}
+
+.card {
+  margin: 0 auto;
+}
+
+
+.cardContainer {
+  margin-bottom: 15px;
+}
+
+.container-fluid {
+
+display: flex;
+
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.footer {
+  background-color:#505050; 
+  padding: 18px; 
+  align-self: center;
+}
+
+#footerContent {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 4%;
+}
+
+.footer img {
+ width: 70px;
+ height: 70px;
+ padding: 10px;
+}
+
+#socialIcons {
+  margin-top: 4px;
+  display: flex;
+  width: 45%;
+}
+
+.p3 {
+  color:lightgrey;
+  font-size: 10pt;
+  box-align:right;
+  margin-top: 20px;
+  width: 15%;
+  font-family: 'Roboto','Source Sans Pro'!important;
+}
+
+
